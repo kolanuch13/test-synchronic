@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email</title>
+  <style>
+    @import 'node_modules/modern-normalize/modern-normalize.css';
+
+    body {
+      width: 100%;
+      margin: 0;
+      background-color: #ccc;
+    }
+
+    table {
+      border-spacing: 0;
+    }
+
+    td {
+      padding: 0;
+    }
+
+    img {
+      border: 0;
+    }
+
+    thead {
+      text-align: center;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    h2,
+    h1,
+    p {
+      margin: 0;
+    }
+
+    hr {
+      margin: 16px;
+    }
+
+    .wrapper {
+      width: 100%;
+      table-layout: fixed;
+      background-color: #fff;
+      padding-bottom: 20px;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .main {
+      background-color: #fff;
+      margin: 0 auto;
+      width: 100%;
+      min-width: 600px;
+      border-spacing: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .header {
+      width: 100%;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .header__logo {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 1.6;
+    }
+
+    .zigzag {
+      background:
+      linear-gradient(-45deg, transparent 16px, #fff 0),
+      linear-gradient(45deg, transparent 16px, #fff 0);
+      background-repeat: repeat-x;
+      background-position: left bottom;
+      background-size: 22px 32px;
+      content: "";
+      display: block;
+      width: 100%;
+      height: 20px;
+      position: relative;
+      top: 10px;
+    }
+
+    .body {
+      background-size: cover;
+    }
+
+    .card:first-child {
+      margin-top: 32px;
+    }
+
+    .card:last-child {
+      margin-bottom: 32px;
+    }
+
+    .card {
+      width: calc(100% - 80px);
+      height: 280px;
+      margin: 0 40px 20px 40px;
+      padding: 20px;
+      background: linear-gradient(74.3deg, #00C6FB 0%, #005BEA 99.33%);
+      border-radius: 17px;
+      color: #fff;
+      font-style: normal;
+    }
+
+    .card__heading {
+      margin-bottom: 12px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.11;
+    }
+
+    .card__description {
+      margin-bottom: 12px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.25;
+    }
+
+    .card__button {
+      padding: 8px 55px;
+      outline: none;
+      border: none;
+      border-radius: 100px;
+      background: linear-gradient(90deg, #29323C 0%, #485563 100%);
+      color: #fff;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .footer {
+      width: 100%;
+      padding: 20px 40px;
+      color: #52575C;
+    }
+
+    .footer p {
+      text-align: center;
+    }
+
+    .footer__info {
+      margin-top: 15px;
+      margin-bottom: 5px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .footer__info a {
+      color: #52575C;
+      margin-left: 15px;
+      text-decoration: none;
+    }
+
+    .footer__info--icon {
+      margin-left: 28px;
+    }
+
+    .footer__describe {
+      color: #52575C;
+    }
+
+    .footer__describe--first {
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <center class="wrapper">
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" class="main">
+      <thead>
+        <table class="header">
+          <tr>
+            <td>
+              <h1 class="header__logo">LOGO HERE</h1>
+            </td>
+          </tr>
+        </table>
+        <table class="zigzag"></table>
+      </thead>
+      <tbody>
+        <table class="body" background="https://i.ibb.co/tXhLcX4/background.jpg">
+          <tr>
+            <td>
+              <table class="card">
+                <th>
+                <td>
+                  <h2 class="card__heading">Sveta111, win! lottery gifts</h2>
+                  <p class="card__description">We have a whole "Universe of Prizes" and we are ready to share great
+                    gifts with you! All you have to do to get them is win an exciting lottery that runs every day.</p>
+                  <button class="card__button">Play</button>
+                </td>
+                <td>
+                  <img src="https://i.ibb.co/ysNXW4H/imac1.png" alt="imac1" border="0">
+                </td>
+                </th>
+              </table>
+            </td>
+          </tr>
+          <tr>
+          <tr>
+            <td>
+              <table class="card">
+                <th>
+                <td>
+                  <h2 class="card__heading">Become a champion in tournaments</h2>
+                  <p class="card__description">We have a whole "Universe of Prizes" and we are ready to share great
+                    gifts with you! All you have to do to get them is win an exciting lottery that runs every day.</p>
+                  <button class="card__button">Play</button>
+                </td>
+                <td>
+                  <img src="https://i.ibb.co/rdmvtXX/lenovo-tablet.png" alt="lenovo-tablet" border="0">
+                </td>
+                </th>
+              </table>
+            </td>
+          </tr>
+          </tr>
+          <tr>
+          <tr>
+            <td>
+              <table class="card">
+                <th>
+                <td>
+                  <h2 class="card__heading">Claim your Bonuses</h2>
+                  <p class="card__description">Generous gifts are waiting for you in the form of no deposit bonuses and
+                    free spins in hot slots.</p>
+                  <button class="card__button">Play</button>
+                </td>
+                <td>
+                  <img src="https://i.ibb.co/Jy9SD14/chest.png" alt="chest" border="0">
+                </td>
+                </th>
+              </table>
+            </td>
+          </tr>
+          </tr>
+        </table>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>
+            <table class="footer">
+              <tr>
+                <td>
+                  <p>If you have questions, please contact us:</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table class="footer__info" align="center">
+                    <tr>
+                      <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3 3H15C15.825 3 16.5 3.675 16.5 4.5V13.5C16.5 14.325 15.825 15 15 15H3C2.175 15 1.5 14.325 1.5 13.5L1.5075 4.5C1.5075 3.675 2.175 3 3 3ZM9 9.75L15 6V4.5L9 8.25L3 4.5V6L9 9.75Z"
+                            fill="#52575C" />
+                        </svg>
+                      </td>
+                      <td>
+                        <a href="mailto:support@support.email">support@support.email</a>
+                      </td>
+                      <td>
+                        <svg class="footer__info--icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                          <path
+                            d="M4.965 8.0925C6.045 10.215 7.785 11.9475 9.9075 13.035L11.5575 11.385C11.76 11.1825 12.06 11.115 12.3225 11.205C13.1625 11.4825 14.07 11.6325 15 11.6325C15.4125 11.6325 15.75 11.97 15.75 12.3825V15C15.75 15.4125 15.4125 15.75 15 15.75C7.9575 15.75 2.25 10.0425 2.25 3C2.25 2.5875 2.5875 2.25 3 2.25H5.625C6.0375 2.25 6.375 2.5875 6.375 3C6.375 3.9375 6.525 4.8375 6.8025 5.6775C6.885 5.94 6.825 6.2325 6.615 6.4425L4.965 8.0925Z"
+                            fill="#52575C" />
+                        </svg>
+                      </td>
+                      <td>
+                        <a href="tel:1234566789">1234566789</a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table class="footer__describe" align="center">
+                    <tr>
+                      <td>
+                        <hr>
+                        <p class="footer__describe--first">Some games and bonuses may not be available in your country.
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>You take all the credit for the fact that you have registered on our site.
+                          For a return link with us, please send a copy to the whole sheet.
+                          <br>You can <a href="/">subscribe</a>
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </center>
+</body>
+
+</html>
